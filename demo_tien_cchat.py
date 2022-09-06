@@ -22,7 +22,7 @@ my_data = []
 
 # Retrieve website 
 
-for j in range(0,12):
+for i in range(1,12):
     
     url = f"https://cchatclothes.vn/san-pham-pc357299.html?page={i}"
     page = requests.get(url)
@@ -44,7 +44,6 @@ for j in range(0,12):
              "product_image": product_image,
              "product_price": product_price})
     
-    i =+1
 
 # Output table
 
